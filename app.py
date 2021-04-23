@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Congratulations! You have completed the Azure Application Architecture and Deployment exercise!"
+    return "Hello! This is a Github actoins demo."
 
 @app.route("/bonus", methods = ['POST'])
 def bonus():
